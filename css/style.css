@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+
+.title{
+  margin: 7vh;
+  font-size: 8vh;
+}
+
+main{
+  margin-top: 5vh;
+  margin: auto;
+  font-size: 2vh;
+  border: 0.3vh solid black;
+  border-radius: 1vh;
+  width: 25vw;
+  height: 25vh;
+}
+
+.input_time{
+  margin-top:3vh;
+}
+
+#minutes{
+  width: 15px;
+}
+
+#seconds{
+  width : 15px;
+}

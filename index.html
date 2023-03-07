@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>タイマーアプリ</title>
+</head>
+<body>
+  <header>
+    <div class="title">
+      タイマーアプリ
+    </div>
+  </header>
+  <main>
+    <div class="input_time">
+      <input type="text" maxlength="2" id="minutes" oninput="value = value.replace(/[^0-9]+/i,'');">分
+      <input type="text" maxlength="2" id="seconds" oninput="value = value.replace(/[^0-9]+/i,'');">秒
+    </div>
+    <h1 id="disp">00:00</h1>
+    <button id = "startbtn">start</button>
+    <button id = "stopbtn">stop</button>
+    <button id = "clearbtn">clear</button>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
